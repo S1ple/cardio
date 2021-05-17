@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 import re
 
 with open('cardio/__init__.py', 'r') as f:
-    version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read(), re.MULTILINE).group(1)
+    version = "1.0.0"
 
 
 with open('docs/index.rst', 'r') as f:
