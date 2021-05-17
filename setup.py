@@ -27,10 +27,11 @@ setup(
     zip_safe=False,
     platforms='any',
     install_requires=[
-        'numpy>=1.13.1',
+        'numpy==1.20',
+        'pycocotools==2.0.0',
         'scipy>=0.19.1',
         'pandas>=0.21.1',
-        'scikit-learn==0.19.1',
+        'scikit-learn==0.24.1',
         'numba>=0.35.0',
         'pywavelets>=0.5.2',
         'matplotlib>=2.1.0',
